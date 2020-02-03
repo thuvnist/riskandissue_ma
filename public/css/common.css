@@ -1,0 +1,92 @@
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.float-right {
+  float: right;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.ml-20 {
+  margin-left: 20%;
+}
+
+.im-search .input-group-addon,
+.im-search input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.im-box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000000;
+}
+
+.im-box .fa-folder-open {
+  font-size: 100px;
+  color: blue;
+}
+
+.im-flex {
+  display: flex;
+}
+
+.im-flex.im-flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.im-flex.im-flex-column {
+  flex-direction: column;
+}
+
+.im-mt {
+  margin-top: 30px;
+}
+
+.author123 {
+  color: #9a9494;
+}
+
+.editicon {
+  padding-left: 8px;
+}
+
+.bl {
+  padding-left: 15px;
+}
+
+.percent_cv {
+  position: absolute;
+  height: 20px;
+  width: 70%;
+  left: 0;
+}
+
+.cv_percent {
+  position: relative;
+  background: #ece8e8;
+  height: 20px;
+}
+

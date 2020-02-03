@@ -1,0 +1,656 @@
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #04c !important;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.nav-active {
+  border-bottom: 3px solid #3c8dbc;
+}
+
+.border-round {
+  border-radius: 5px;
+  border: 2px solid #3c8dbc;
+  display: inline-block;
+  padding: 0 10px 5px 10px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.border-round span {
+  font-style: italic;
+}
+
+.border-round i {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.custom-input-check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: normal;
+}
+
+/* Hide the browser's default checkbox */
+
+.custom-input-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border: 1px solid #3c8dbc;
+}
+
+/* On mouse-over, add a grey background color */
+
+.custom-input-check:hover input ~ .checkmark {
+  background-color: #3c8dbc;
+}
+
+/* When the checkbox is checked, add a blue background */
+
+.custom-input-check input:checked ~ .checkmark {
+  background-color: #3c8dbc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+
+.custom-input-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+
+.custom-input-check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-24 {
+  width: 24%;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mh-500 {
+  min-height: 500px;
+}
+
+.bg-board {
+  background-color: #d2d6de;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.border-dark {
+  border: 1px solid #000;
+}
+
+.bg-board-1 {
+  background-color: #3399FF;
+}
+
+.bg-board-2 {
+  background-color: #CC6600;
+}
+
+.bg-board-3 {
+  background-color: #009999;
+}
+
+.bg-board-4 {
+  background-color: #00994D;
+}
+
+.bg-board-5 {
+  background-color: #009999;
+}
+
+.bg-board-6 {
+  background-color: #FF6666;
+}
+
+.float-right {
+  float: right;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.width-20 {
+  width: 20px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.board-title {
+  padding: 5px;
+}
+
+.board-content {
+  padding-left: 10px;
+}
+
+.nav-header li:hover {
+  border-bottom: 3px solid #3c8dbc;
+}
+
+.nav-header .nav-active:hover {
+  border-bottom: 0 solid #3c8dbc;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #999999;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.issue .nav-pills > li.active > a {
+  border-top-color: transparent;
+  border-bottom: 2px solid #FF0000;
+  background-color: transparent;
+}
+
+.issue .nav-pills > li.active > a {
+  color: #FF0000;
+  background-color: transparent;
+}
+
+.issue .nav-pills > li.active > a:hover,
+.issue .nav > li > a:hover {
+  color: #FF0000;
+  background-color: transparent;
+  border-top-color: transparent;
+  border-bottom: 2px solid #FF0000;
+}
+
+.issue .nav-pills > li.active > a:focus {
+  border-top-color: transparent;
+  border-bottom: 2px solid #FF0000;
+  background-color: transparent;
+  color: #FF0000;
+}
+
+.nav-child {
+  background: #ffffff;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.boder-number {
+  border-radius: 50%;
+  background-color: #999999;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  padding: 2px 0 0 8px;
+}
+
+.img-icon {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.border {
+  border: 1px solid #000;
+}
+
+.table-database {
+  padding: 10px;
+}
+
+.table-database div {
+  padding: 2px;
+}
+
+.table-database div p {
+  cursor: pointer;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.i-search {
+  margin: 9px 10px 0 0;
+}
+
+.db-area {
+  width: 50vw;
+  position: relative;
+}
+
+.db-area div {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.db-area i {
+  color: blue;
+}
+
+i.minus {
+  color: red;
+  position: absolute;
+  right: 20px;
+  top: 4px;
+}
+
+i.undo {
+  font-size: 35px;
+}
+
+.option-db {
+  margin-left: 40px;
+  color: blue;
+}
+
+.option-db a i {
+  color: blue;
+}
+
+.custom-div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.custom-div p {
+  margin-top: 60px;
+}
+
+.custom-div p i {
+  font-size: 60px;
+  color: blue;
+}
+
+.require {
+  position: relative;
+}
+
+.require::after {
+  position: absolute;
+  content: "*";
+  top: -1px;
+  color: red;
+}
+
+.box-loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  background: white;
+  z-index: 1;
+}
+
+.d-none {
+  display: none;
+}
+
+@-webkit-keyframes spinner-border {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner-border {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner-border {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner-border 0.75s linear infinite;
+  animation: spinner-border 0.75s linear infinite;
+}
+
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.bg-div {
+  padding: 7px 15px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.bg-1 {
+  background-color: #eeeeee;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex.space-around {
+  justify-content: space-around;
+}
+
+.box-1 {
+  top: 50px;
+  left: 50px;
+}
+
+.box-circleci {
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  padding-top: 15px;
+  text-align: center;
+  border: none;
+}
+
+.box-square {
+  background-color: white;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  height: 50px;
+  padding: 15px;
+  word-wrap: break-word;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.line-1 {
+  top: 0;
+  left: 100px;
+  width: 50px;
+  height: 75px;
+}
+
+.line-temp-1 {
+  position: absolute;
+  border-bottom: 1px solid #000000;
+}
+
+.line-temp-1 i {
+  position: absolute;
+  bottom: -8.5px;
+  right: 0;
+  font-size: 16px;
+}
+
+.box-2 {
+  top: 50px;
+  left: 150px;
+}
+
+.box-3 {
+  top: 150px;
+  left: 150px;
+}
+
+.box-4 {
+  top: 250px;
+  left: 150px;
+}
+
+.box-5 {
+  width: 250px;
+  top: 350px;
+  left: 150px;
+}
+
+.box-6 {
+  top: 450px;
+  left: 150px;
+}
+
+.box-7 {
+  top: 550px;
+  left: 150px;
+}
+
+.box-8 {
+  top: 350px;
+  left: 450px;
+}
+
+.box-rotate {
+  transform: rotate(45deg);
+  position: absolute;
+  border: 1px solid #000000;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.box-9 {
+  top: 350px;
+  left: 600px;
+}
+
+.box-10 {
+  background-color: red;
+  color: white;
+  top: 550px;
+  left: 625px;
+}
+
+.line-temp-2 {
+  position: absolute;
+  border-right: 1px solid black;
+}
+
+.line-temp-2 i {
+  position: absolute;
+  bottom: -5px;
+  right: -6px;
+  font-size: 16px;
+}
+
+.line-2 {
+  top: 100px;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+}
+
+.line-3 {
+  top: 200px;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+}
+
+.line-4 {
+  top: 300px;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+}
+
+.line-5 {
+  top: 500px;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+}
+
+.line-6 {
+  top: 325px;
+  left: 400px;
+  width: 41px;
+  height: 50px;
+}
+
+.line-7 {
+  top: 325px;
+  left: 511px;
+  width: 90px;
+  height: 50px;
+  word-break: break-word;
+  padding-top: 20px;
+}
+
+.line-8 {
+  top: 525px;
+  left: 260px;
+  width: 365px;
+  height: 50px;
+}
+
+.line-9 {
+  top: 400px;
+  left: 600px;
+  width: 50px;
+  height: 150px;
+}
+
+.line-10 {
+  top: 410px;
+  left: 289px;
+  width: 186px;
+  height: 67px;
+  position: absolute;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.line-10 i {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  font-size: 16px;
+}
+
+.box-bg-1 {
+  background-color: #cccccc;
+  color: white;
+  border: none;
+}
+
+.box-bg-2 {
+  background-color: blue;
+  border: none;
+  color: white;
+}
+
+.box-bg-4 {
+  background-color: blue;
+  color: white;
+}
+
+.box-bg-5 {
+  background-color: #00a65a;
+  color: white;
+  border: none;
+}
+
+.box-active {
+  cursor: pointer;
+}
+
